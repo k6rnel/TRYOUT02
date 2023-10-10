@@ -1,0 +1,64 @@
+
+.one
+.one-max {
+    opacity: 0;
+    position: absolute;
+    transition-duration: 0s;
+    width: 200px;
+    height: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    overflow: scroll;
+}
+.one:hover .one-min {
+    opacity: 0;
+    transition-duration: 0s;   
+}
+
+.one:hover .one-max {
+    opacity: 1;
+}
+.one-max,
+.one-min {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    width: 200px;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.two
+.two-max {
+    opacity: 0;
+    position: absolute;
+    transition-duration: 0s;
+    width: 200px;
+    height: 200px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    overflow: scroll;
+}
+.two:hover .two-min {
+    opacity: 0;
+    transition-duration: 0s;   
+}
+
+.two:hover .two-max {
+    opacity: 1;
+}
+.two-max,
+.one-min {
+    position: absolute;
+    left: 18px;
+    top: 15px;
+    width: 200px;
+    height: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
